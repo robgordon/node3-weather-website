@@ -17,7 +17,7 @@ weatherform.addEventListener('submit', (e) => {
        }
        else {
         messageOne.textContent=data.location;
-        messageTwo.textContent=data.forecast.summary + 'The temperature is ' + data.forecast.temp + ' degrees and there is a ' + data.forecast.precip + '% chance of rain';
+        messageTwo.textContent=data.forecast.summary + 'The high temperature is ' + data.forecast.high + ' and the low is ' + data.forecast.low + '.  The temperature is ' + data.forecast.temp + ' degrees and there is a ' + data.forecast.precip + '% chance of rain';
        }
    })
 })
